@@ -14,7 +14,7 @@ import com.bolsadeideas.springboot.web.app.models.Usuario;
 @RequestMapping("/app")
 public class IndexController {
 	
-
+ 
 	@Value("${texto.indexcontroller.index.titulo}")
 	private String textoIndex;
 	@Value("${texto.indexcontroller.perfil.titulo}")
